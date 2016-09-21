@@ -1,11 +1,11 @@
 {
-  "name": "NDExValetFinder",
+  "name": "ndex-search-carousel",
   "author": "Eric Sage",
   "version": "v0.0.1",
-  "description": "Find and choose NDEx networks with ease.",
+  "description": "Search users, networks, and groups in NDEx.",
   "license": "MIT",
   "keywords": [],
-  "main": "build/NDExValetFinder.js",
+  "main": "build/NDExSearchCarousel.js",
   "files": [
     "webpack.config.js",
     ".preprocessor.js",
@@ -20,13 +20,13 @@
     "test": "eslint src/ && jest",
     "coverage": "jest --coverage"
   },
-  "homepage": "https://github.com/CyComponent/NDExValetFinder",
+  "homepage": "https://github.com/CyComponent/NDExSearchCarousel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CyComponent/NDExValetFinder.git"
+    "url": "https://github.com/CyComponent/NDExSearchCarousel.git"
   },
   "bugs": {
-    "url": "https://github.com/CyComponent/NDExValetFinder/issues"
+    "url": "https://github.com/CyComponent/NDExSearchCarousel/issues"
   },
   "peerDependencies": {
     "react": "^15.2.1",
@@ -41,7 +41,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.23.0",
-    "ndex-network-search": "0.0.6",
+    "ndex-search-ui": "0.0.11",
     "eslint": "^2.0.0",
     "file-loader": "^0.8.5",
     "immutable": "^3.7.6",
